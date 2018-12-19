@@ -41,7 +41,6 @@ public class MainActivity extends AppCompatActivity implements UploadCallBacks {
         Button btnUpload, btnChoose, btnCount;
         TextView txt, txtCount;
         File choosedFile;
-        ProgressDialog dialog;
         NotificationCompat.Builder mBuilder;
         NotificationManagerCompat notificationManager;
         String CHANNEL_ID ="uploadChannelID";
