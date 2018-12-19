@@ -10,7 +10,7 @@
 <h2>Follow the steps to configure after cloning:</h2>
 <ol>
   <li>
-    <h2>ADD THE DEPENDENCIES</h2>
+    <h2>Add the dependencies, under dependencies section of app gradle</h2>
    
 
     implementation 'com.squareup.retrofit2:retrofit:2.3.0'
@@ -19,6 +19,17 @@
     
     
   </li>
-  <li></li>
+  <li>
+    <h2>Add the url of the maven file on the file picker library, under android section of app gradle </h2>
+    
+    repositories {
+        maven {
+            url "http://dl.bintray.com/lukaville/maven"
+        }
+    }
+    
+  
+
+</li>
   <li></li>
   <li></li>
